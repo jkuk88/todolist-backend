@@ -23,4 +23,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoListApi.DataAccess\ToDoListApi.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
